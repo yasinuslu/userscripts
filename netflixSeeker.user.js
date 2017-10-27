@@ -5,8 +5,8 @@
 // @license         MIT; https://opensource.org/licenses/MIT
 // @homepageURL     https://github.com/yasinuslu/userscripts
 // @icon            https://www.netflix.com/favicon.ico
-// @updateURL       https://openuserjs.org/meta/yasinuslu/netflixSeeker.meta.js
-// @version         0.0.3
+// @updateURL       https://openuserjs.org/meta/yasinuslu/Netflix_Seeker.meta.js
+// @version         0.0.4
 // @description     Allows you to easily fast-forward, fast-backward with arrow keys in netflix player
 // @author          yasinuslu
 // @match           https://www.netflix.com/watch/*
