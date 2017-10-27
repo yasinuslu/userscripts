@@ -6,14 +6,13 @@
 // @homepageURL     https://github.com/yasinuslu/userscripts
 // @icon            https://www.netflix.com/favicon.ico
 // @updateURL       https://openuserjs.org/meta/yasinuslu/netflixSeeker.meta.js
-// @version         0.0.2
+// @version         0.0.3
 // @description     Allows you to easily fast-forward, fast-backward with arrow keys in netflix player
 // @author          yasinuslu
 // @match           https://www.netflix.com/watch/*
 // ==/UserScript==
 
 (function() {
-  // github hook check
   function createNetflixSeeker() {
     const DEFAULT_SEEK_AMOUNT = 5;
     const PROGRESS_CONTROL_SELECTOR =
