@@ -6,7 +6,7 @@
 // @homepageURL     https://github.com/yasinuslu/userscripts
 // @icon            https://www.netflix.com/favicon.ico
 // @updateURL       https://openuserjs.org/meta/yasinuslu/Netflix_Seeker.meta.js
-// @version         0.0.6
+// @version         0.0.7
 // @description     Allows you to easily fast-forward, fast-backward with arrow keys in netflix player
 // @author          yasinuslu
 // @match           https://www.netflix.com/watch/*
@@ -94,25 +94,5 @@
     };
   }
 
-  function initNetflixSeeker() {
-    if (window.netflixSeeker) {
-      destroyNetflixSeeker();
-    }
-
-    window.netflixSeeker = createNetflixSeeker();
-  }
-
-  function destroyNetflixSeeker() {
-    if (!window.netflixSeeker) {
-      return;
-    }
-
-    window.netflixSeeker.destroy();
-    delete window.netflixSeeker;
-  }
-
-  window.initNetflixSeeker = initNetflixSeeker;
-  window.destroyNetflixSeeker = destroyNetflixSeeker;
-
-  initNetflixSeeker();
+  createNetflixSeeker();
 })();
