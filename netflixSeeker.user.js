@@ -1,12 +1,15 @@
 // ==UserScript==
-// @name         Netflix Seeker
-// @namespace    http://tampermonkey.net/
-// @version      0.0.1
-// @description  Allows you to easily fast-forward,
-// fast-backward with arrow keys in netflix player
-// @author       yasinuslu
-// @match        https://www.netflix.com/watch/*
-// @grant        none
+// @name            Netflix Seeker
+// @namespace       http://tampermonkey.net/
+// @copyright       2017, Yasin Uslu (http://nepjua.org)
+// @license         MIT; https://opensource.org/licenses/MIT
+// @homepageURL     https://github.com/yasinuslu/userscripts
+// @icon            https://www.netflix.com/favicon.ico
+// @updateURL       https://openuserjs.org/meta/yasinuslu/netflixSeeker.meta.js
+// @version         0.0.1
+// @description     Allows you to easily fast-forward, fast-backward with arrow keys in netflix player
+// @author          yasinuslu
+// @match           https://www.netflix.com/watch/*
 // ==/UserScript==
 
 (function() {
