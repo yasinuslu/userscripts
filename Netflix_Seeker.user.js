@@ -9,7 +9,7 @@
 // @version         0.0.7
 // @description     Allows you to easily fast-forward, fast-backward with arrow keys in netflix player
 // @author          yasinuslu
-// @match           https://www.netflix.com/watch/*
+// @match           https://www.netflix.com/*
 // ==/UserScript==
 
 (function() {
